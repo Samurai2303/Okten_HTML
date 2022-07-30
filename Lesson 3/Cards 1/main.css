@@ -81,7 +81,6 @@ i {
 a{
     border: 3px solid black;
     box-sizing: border-box;
-    display: block;
     height: 100px;
     width: 250px;
     border-radius: 50%;
