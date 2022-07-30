@@ -1,0 +1,189 @@
+html{
+    font-size: 20px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg{
+    background: orange;
+    border-radius: 8px;
+    border: 4px solid black;
+    box-sizing: border-box;
+
+}
+.dpfl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.father{
+    width: 400px;
+    height: auto;
+    gap: 10px;
+}
+.logo_header{
+    position: fixed;
+    top: 0;
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 33.33%;
+    height: 50px;
+}
+.header{
+    width: 66.66%;
+    height: 50px;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    height: 50px;
+    margin: 60px 0 10px 0;
+}
+.block4567{
+    gap: 10px;
+}
+.intro_ad{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.intro{
+    height: 100px;
+    width: 66%;
+}
+.ad{
+    height: 100px;
+    width: 33%;
+}
+.types_products{
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.types{
+    height: 250px;
+    margin-bottom: 10px;
+}
+.products{
+    height: 160px;
+}
+.lock_tools{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 90px;
+}
+.lock{
+    height: 60px;
+    width: 50%;
+}
+.tools{
+    height: 60px;
+    width: 50%;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 400px;
+}
+a{
+    width: 150px;
+    height: 60px;
+    border-radius: 50%;
+    background: black;
+    border: 3px solid orange;
+    transition: 300ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: orange;
+}
+a:hover{
+    width: 160px;
+    height: 60px;
+    border: 5px solid black;
+    background: orange;
+    color: black;
+}
+@media screen and (min-width: 850px) {
+    html{
+        font-size: 25px;
+    }
+    .father{
+        width: 850px;
+        position: relative;
+    }
+    .logo_header{
+        width: 850px;
+    }
+    .logo{
+        width: 20%;
+        height: 60px;
+    }
+    .header{
+        width: 79.9%;
+        height: 60px;
+    }
+    .wrap{
+        gap: 5px;
+    }
+    .block4567{
+        position: absolute;
+        right: 0;
+        width: 79%;
+        margin: 70px 0 90px 0;
+    }
+    .intro{
+        height: 120px;
+    }
+    .ad{
+        height: 120px;
+    }
+    .types_products{
+        display: flex;
+        justify-content: space-between;
+    }
+    .types{
+        width: 66%;
+        height: 400px;
+    }
+    .products{
+        width: 33%;
+        height: 400px;
+    }
+    .wrap{
+        width: 20%;
+    }
+    .nav{
+        margin-top: 70px;
+        height: 400px;
+    }
+    .lock_tools{
+        flex-direction: column;
+    }
+    .lock{
+        height: 50px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .tools{
+        height: 50px;
+        width: 100%;
+    }
+    .footer{
+        width: 850px;
+    }
+}

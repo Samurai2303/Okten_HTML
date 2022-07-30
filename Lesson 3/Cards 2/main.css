@@ -1,0 +1,78 @@
+.bglight{
+    background: lightgray;
+}
+.bgdark{
+    background: #003472;
+}
+.bgpurple{
+    background: rebeccapurple;
+}
+.bdr{
+    border-radius: 10px;
+}
+.b1{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    margin: 0;
+}
+.little{
+    height: 40px;
+    width: 120px;
+    margin-left: 70px;
+}
+.fsize{
+    font-size: 30px;
+    color: rebeccapurple;
+}
+.fa-magnifying-glass{
+    align-self: end;
+    margin-right: 20px;
+
+}
+.fa-grip-lines{
+    align-self: end;
+    margin-right: 60px;
+}
+.b2{
+    height: 400px;
+    position: relative;
+}
+.medium{
+    height: 120px;
+    width: 140px;
+}
+.main-medium{
+    width: 100%;
+    column-gap: 20px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    position: absolute;
+    bottom: -60px;
+}
+.b3{
+    width: 100%;
+    height: 150px;
+}
+a{
+    box-sizing: border-box;
+    border: 3px solid black;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    transition: 800ms;
+    font-family: "Arial Black", serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:hover{
+    background: rebeccapurple;
+}

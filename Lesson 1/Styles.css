@@ -1,0 +1,16 @@
+h1{
+    color: darkblue;
+    background: lightcyan;
+}
+p{
+    color: #000034;
+    background: silver;
+}
+ul > li{
+    color: darkred;
+    background: #ff9696;
+}
+h2  {
+    color: blue;
+    background: lightblue;
+}

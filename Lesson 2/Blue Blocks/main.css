@@ -1,0 +1,44 @@
+
+.main{
+    height: auto;
+    width: 600px;
+}
+.first{
+    background: #0066ff;
+    height: 230px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.third{
+    margin-top: 10px;
+    height: 400px;
+    background: #0066ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1{
+    background: #002b81;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: white;
+    font-size: x-large;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

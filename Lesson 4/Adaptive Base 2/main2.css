@@ -1,0 +1,129 @@
+html{
+    font-size: 40px;
+    height: 100vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+.bg{
+    background:silver;
+}
+.bdrd{
+    border-radius: 10px;
+}
+.a{
+    width: 95vw;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.wrap{
+    width: 95vw;
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.f{
+    height: 100%;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.b{
+    height: 47%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.cde{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bcde{
+    height: 60vh;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+a{
+    transition: 300ms;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    height: 70px;
+    width: 70px;
+    background: cornflowerblue;
+    border: 3px solid #000070;
+    border-radius: 30%;
+    text-decoration: none;
+}
+i{
+    font-size: 50px;
+    color: #000070;
+}
+a:hover{
+    background: rebeccapurple;
+    width: 80px;
+    height: 80px;
+}
+@media screen and (max-width: 700px) {
+    html{
+        font-size: 30px;
+    }
+    .wrap{
+        flex-direction: column;
+        height: 78vh;
+    }
+    .bdrd{
+        border-radius: 15px;
+    }
+    .box{
+        height: 65%;
+        width: 25%;
+    }
+    .bcde{
+        width: 95vw;
+    }
+    .a{
+        height: 18vh;
+    }
+    .b{
+        height: 65%;
+    }
+    .f{
+        height: 23%;
+        width: 95vw;
+    }
+    .cde{
+        height: 33%;
+        justify-content: space-between;
+    }
+}

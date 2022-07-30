@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    width: 900px;
+    min-height: 300px;
+}
+.first{
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 15px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.p{
+   color: silver;
+    text-align: center;
+    margin: 20px 5px 30px;
+
+}
+.p1{
+   box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.mainM{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
